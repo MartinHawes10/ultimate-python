@@ -10,8 +10,7 @@ def main():
     # Unlike a `list and `tuple`, it is not an ordered sequence as it
     # does not allow duplicates to be added
     for _ in range(5):
-        simple_set.add(0)
-        simple_set.add(4)
+        simple_set.add(_)
     assert simple_set == {0, 1, 2, 3, 4}
 
     # Now let's define two new `set` collections
